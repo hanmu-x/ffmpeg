@@ -23,4 +23,3 @@ find_package(FFMPEG REQUIRED)
 target_include_directories(${PROJECT_NAME}  PUBLIC ${FFMPEG_INCLUDE_DIRS})
 target_link_directories(${PROJECT_NAME}  PUBLIC ${FFMPEG_LIBRARY_DIRS})
 target_link_libraries(${PROJECT_NAME}  PUBLIC ${FFMPEG_LIBRARIES})
-
