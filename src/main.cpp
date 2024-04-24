@@ -1,6 +1,6 @@
 
-#include "tool_dir_name/project.h"
-#include "tool_dir_name/config.hpp"
+#include "ffmpeg_tool/ffmpeg_tool.h"
+#include "ffmpeg_tool/config.hpp"
 
 #include <filesystem>
 
@@ -16,7 +16,7 @@ int main()
     int height = 480;
     tool_class tc;
 
-    tc.pullVideoFromCamera(outputFileName, width, height);
+    //tc.pullVideoFromCamera(outputFileName, width, height);
     return 0;
 }
 

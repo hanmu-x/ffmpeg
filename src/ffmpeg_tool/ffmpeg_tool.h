@@ -9,7 +9,7 @@ class tool_class
 {
 public:
 
-	void pullVideoFromCamera(const char* outputFileName, int width, int height);
+	//void pullVideoFromCamera(const char* outputFileName, int width, int height);
 
 
 
